@@ -1,0 +1,41 @@
+.signup-page {
+    height: 100vh;
+}
+
+.signup-box {
+    background-color: rgb(115, 106, 106);
+    width: 500px;
+    height: auto;
+    margin: 200px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+
+.field-style {
+    width: 90%;
+    height: 35px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.signup-title {
+    margin-bottom: 30px;
+}
+
+.small-field-style {
+    height: 35px;
+    width: 43%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.right-field {
+    margin-left: 15px;
+}
+
+.main-signup-btn {
+    width: 100px;
+    height: 35px;
+}

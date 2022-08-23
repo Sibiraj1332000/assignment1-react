@@ -1,0 +1,36 @@
+.footer-details {
+    width: 75%;
+    height: 20vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer-link-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    font-weight: 400;
+    list-style: none;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.footer-elements-div-1 {
+    padding: 65px 200px;
+}
+
+.footer-elements-div-2 {
+    padding: 60px;
+}
+
+.footer-contact {
+    width: 280px;
+    text-align: center;
+}

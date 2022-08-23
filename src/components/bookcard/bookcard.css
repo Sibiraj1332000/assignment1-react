@@ -1,0 +1,54 @@
+.cards {
+    width: 100%;
+    padding: 5px 5px;
+    background-color: #46474a;
+}
+
+.bookcard-image-box {
+    width: 100%;
+    height: 100%;
+    height: 370px;
+}
+
+.bookcard-image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.details {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.book-details {
+    min-height: 100px;
+}
+
+.book-name {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.book-auther {
+    font-size: 14px;
+}
+
+.book-avail {
+    background-color: green;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.book-out-of-stock {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.button-div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

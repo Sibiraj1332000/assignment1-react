@@ -1,0 +1,11 @@
+.footer-part {
+    background: black;
+    color: white;
+    height: 50vh;
+    padding-top: 20px;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: space-between;
+}

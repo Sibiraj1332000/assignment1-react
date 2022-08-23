@@ -1,0 +1,74 @@
+.login-page {
+    height: 100vh;
+    padding-top: 150px;
+    /* background-image: linear-gradient(to right, rgb(224, 52, 52), rgb(40, 40, 187)); */
+    background-color: rgb(47, 46, 46);
+}
+
+.login-box {
+    height: 430px;
+    width: 400px;
+    padding-top: 60px;
+    margin: auto;
+    background-color: rgba(19, 18, 18, 0.903);
+    text-align: center;
+}
+
+
+.login-field-style{
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    border-width: 3px;
+    border-image-slice: 1;
+    color: rgba(255, 255, 255, 0.507);
+    border-image-source: linear-gradient(to left, rgb(235, 23, 23), rgb(46, 46, 209));
+    background: rgba(19, 18, 18, 0.903);
+
+    
+}:focus-visible{
+    background: rgba(19, 18, 18, 0.903);
+}
+
+.login-title {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 44px;
+    color: rgba(255, 255, 255, 0.875);  
+}
+
+.title-text{
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.507);
+    font-size: 14px;
+}
+
+.login-bottom {
+    margin: auto;
+    width: 75%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+ 
+}
+
+.login-btn {
+    width: 100px;
+    height: 35px;
+    color: rgba(255, 255, 255, 0.875);
+    background: rgba(19, 18, 18, 0.903);
+    border-width: 3px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, rgb(101, 221, 101),green);
+
+}
+
+.signup-btn {
+
+    display: inline-block;
+    margin-top: 7px;
+    color: rgba(255, 255, 255, 0.875);
+}

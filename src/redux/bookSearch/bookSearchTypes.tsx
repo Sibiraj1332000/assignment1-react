@@ -1,0 +1,2 @@
+export const FETCH_SEARCH_SUCCESS: string = 'FETCH_SEARCH_SUCCESS';
+export const FETCH_SEARCH_FAILURE: string = 'FETCH_SEARCH_FAILURE';

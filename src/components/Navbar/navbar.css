@@ -1,0 +1,66 @@
+.navbar-items {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+
+}
+
+.navbar-align {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-main {
+    color: white;
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+.logo-main img {
+    width: 45px;
+}
+
+.navbar-items ul {
+    float: left;
+    list-style: none;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+
+.navbar-align ul li {
+    display: inline;
+    list-style: none;
+    font-size: 18px;
+    padding: 10px;
+    line-height: 80px;
+}
+
+.navbar-align ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.menu-login {
+    background-color: #486357;
+    border-radius: 7%;
+    width: 80px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.login-div {
+    margin: 20px 10px 0 0;
+    ;
+}
+
+.book-title {
+    text-decoration: underline;
+    margin: 40px auto 50px;
+}
+

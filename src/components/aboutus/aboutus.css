@@ -1,0 +1,22 @@
+.aboutus-maindiv {
+    height: 85vh;
+}
+
+.aboutus-maindiv h2 {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.aboutus-maindiv h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.aboutus-table {
+    margin-top: 20px;
+}
+
+.aboutus-table tr td {
+    width: 200px;
+    height: 35px;
+}

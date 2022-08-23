@@ -1,0 +1,409 @@
+{
+  "booksTaken": [],
+  "bookDetails": [
+    {
+      "id": 1,
+      "bookName": "Mahabharata complete book in English",
+      "auther": "by Vyasa and Kisari Mohan Ganguly",
+      "count": 1,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_1.webp",
+      "category": "story"
+    },
+    {
+      "id": 2,
+      "bookName": "Way 2 find your perfect - self help and relationship book",
+      "auther": "by Kabir Singh and Yash Choudhary",
+      "count": 3,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_2.webp",
+      "category": "story"
+    },
+    {
+      "id": 3,
+      "bookName": "The Murder in the Rain (Inspector KP Singh Book 1)",
+      "auther": "by Moitrayee Bhaduri ",
+      "count": 1,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_3.webp",
+      "category": "story"
+    },
+    {
+      "id": 4,
+      "bookName": "How To Trade In Stocks",
+      "auther": "by Jesse L. Livermore and Martin Vander Weyer",
+      "count": 2,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_4.webp",
+      "category": "story"
+    },
+    {
+      "id": 5,
+      "bookName": "The Little Black Book of Stock Market Secrets",
+      "auther": "by Matthew R. Kratter ",
+      "count": 1,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_5.webp",
+      "category": "poem"
+    },
+    {
+      "id": 6,
+      "bookName": "AWS Cookbook",
+      "auther": "by John Culkin and Mike Zazon ",
+      "count": 1,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_6.webp",
+      "category": "poem"
+    },
+    {
+      "id": 7,
+      "bookName": "Three Men in a Boat",
+      "auther": "by Jerome K. Jerome ",
+      "count": 1,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_7.webp",
+      "category": "novel"
+    },
+    {
+      "id": 8,
+      "bookName": "Wish I Could Tell You",
+      "auther": "by Durjoy Datta",
+      "count": 1,
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_8.webp",
+      "category": "novel"
+    }
+  ],
+  "login": [
+    {
+      "userName": "qdw",
+      "password": "111",
+      "id": 1
+    },
+    {
+      "userName": "qewra",
+      "password": "222",
+      "id": 2
+    },
+    {
+      "userName": "ww@gmail.com",
+      "password": "444",
+      "id": 3
+    },
+    {
+      "userName": "aa@gmail.com",
+      "password": "1111",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "userName": "ss@g.com",
+      "password": "a",
+      "id": 7
+    },
+    {
+      "userName": "bb@gmail.com",
+      "password": "222",
+      "id": 8
+    },
+    {
+      "userName": "sibiraj@gmail.com",
+      "password": "222",
+      "id": 9
+    }
+  ],
+  "userDetails": [
+    {
+      "firstName": "qwd",
+      "lastName": "qedx",
+      "email": "qdw",
+      "phone": "edw",
+      "houseName": "qde",
+      "city": "ews",
+      "district": "dew",
+      "post": "3wdsde",
+      "pin": "3edwas",
+      "id": 1
+    },
+    {
+      "firstName": "wdcas",
+      "lastName": "efdws",
+      "email": "qewra",
+      "phone": "2edwc",
+      "houseName": "32dfre",
+      "city": "ewfrq",
+      "district": "32e3qrf",
+      "post": "32efr",
+      "pin": "3er4f",
+      "id": 2
+    },
+    {
+      "firstName": "wecsd",
+      "lastName": "qedwa",
+      "email": "ww@gmail.com",
+      "phone": "eqdwrf",
+      "houseName": "qwefrgrd",
+      "city": "qwer",
+      "district": "w",
+      "post": "qerf",
+      "pin": "weed",
+      "id": 3
+    },
+    {
+      "firstName": "aa",
+      "lastName": "aa",
+      "email": "aa@gmail.com",
+      "phone": "11",
+      "houseName": "ss",
+      "city": "ss",
+      "district": "ss",
+      "post": "sss",
+      "pin": "sss",
+      "id": 4
+    },
+    {
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "firstName": "e",
+      "lastName": "e",
+      "email": "ss@g.com",
+      "phone": "1111111111111111111",
+      "houseName": "dd",
+      "city": "dd",
+      "district": "dd",
+      "post": "dd",
+      "pin": "1111111",
+      "id": 7
+    },
+    {
+      "firstName": "qq",
+      "lastName": "qq",
+      "email": "bb@gmail.com",
+      "phone": "1111111111",
+      "houseName": "kmf",
+      "city": "kfnj",
+      "district": "sddsd",
+      "post": "sdds",
+      "pin": "1111111111",
+      "id": 8
+    },
+    {
+      "firstName": "sibi",
+      "lastName": "raj",
+      "email": "sibiraj@gmail.com",
+      "phone": "1111111111",
+      "houseName": "fffff",
+      "city": "ddddd",
+      "district": "ggggg",
+      "post": "dddd",
+      "pin": "1111111",
+      "id": 9
+    }
+  ],
+  "enquiryData": [
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "hlo",
+      "id": 1
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "hlo",
+      "id": 2
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "ssss",
+      "id": 3
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "ssss",
+      "id": 4
+    },
+    {
+      "enquiryEmail": "sk@gmail.com",
+      "enquiryMessage": "ssss",
+      "id": 5
+    },
+    {
+      "enquiryEmail": "sk@gmail.com",
+      "enquiryMessage": "ssss",
+      "id": 6
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "hlo",
+      "id": 7
+    },
+    {
+      "enquiryMessage": "",
+      "id": 8
+    }
+  ],
+  "newsAndEvent": [
+    {
+      "id": 1,
+      "eventTitle": "Event 1",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 2,
+      "eventTitle": "Event 2",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 3,
+      "eventTitle": "Event 3",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 4,
+      "eventTitle": "Event 4",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 5,
+      "eventTitle": "Event 5",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 6,
+      "eventTitle": "Event 6",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 7,
+      "eventTitle": "Event 7",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 8,
+      "eventTitle": "Event 8",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 9,
+      "eventTitle": "Event 9",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    },
+    {
+      "id": 10,
+      "eventTitle": "Event 10",
+      "eventDetails": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis est hic consequatur, totam beatae voluptatibus laudantium saepe quis amet voluptates nulla nisi maiores blanditiis laboriosam vitae labore ratione veniam in."
+    }
+  ],
+  "generalBookSummary": [
+    {
+      "id": 1,
+      "language": "English",
+      "dailies": 8,
+      "journals": 99
+    },
+    {
+      "id": 2,
+      "language": "Malayalam",
+      "dailies": 14,
+      "journals": 76
+    },
+    {
+      "id": 3,
+      "language": "Tamil",
+      "dailies": 1,
+      "journals": 14
+    },
+    {
+      "id": 4,
+      "language": "Hindi",
+      "dailies": 40,
+      "journals": 70
+    }
+  ],
+  "childBookSummary": [
+    {
+      "id": 1,
+      "language": "English",
+      "journals": 30
+    },
+    {
+      "id": 2,
+      "language": "Malayalam",
+      "journals": 30
+    }
+  ],
+  "galleryImageDetails": [
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 1
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 2
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 3
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 4
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 5
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 6
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 7
+    },
+    {
+      "imgUrl": "http://127.0.0.1:8080/img4.jpg",
+      "key": 8
+    }
+  ],
+  "MenuItems": [
+    {
+      "title": "Books",
+      "url": "/",
+      "cname": "menu-book"
+    },
+    {
+      "title": "Books Taken",
+      "url": "/bookstaken",
+      "cname": "books-taken"
+    },
+    {
+      "title": "Gallery",
+      "url": "/gallery",
+      "cname": "menu-gallery"
+    },
+    {
+      "title": "About",
+      "url": "/aboutus",
+      "cname": "menu-about"
+    }
+  ],
+  "bookCategoryList": [
+    {
+      "id": 1,
+      "category": "all"
+    },
+    {
+      "id": 2,
+      "category": "poem"
+    },
+    {
+      "id": 3,
+      "category": "story"
+    },
+    {
+      "id": 4,
+      "category": "novel"
+    }
+  ]
+}

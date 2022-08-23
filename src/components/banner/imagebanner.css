@@ -1,0 +1,22 @@
+.banner-div {
+    background-image: url("./../../assets/banner-image.jpg");
+    background-size: cover;
+    padding-top: 120px;
+    height: 100%;
+    width: 100%;
+
+}
+
+.slider-filter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.banner-second-row {
+    display: flex;
+    justify-content: space-between;
+
+}
