@@ -26,6 +26,8 @@ const bookListReducer = (state:BookListReducerType = initialState, action:BookLi
             error: ''
         };
     case FETCH_BOOKS_FAILURE:
+        console.log("kkkkg");
+        
         return {
             ...state,
             loading: false,

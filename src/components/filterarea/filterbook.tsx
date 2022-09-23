@@ -10,7 +10,7 @@ const Filterbook = () => {
     const myHistory = useHistory();
     const dispatch = useDispatch()
 
-    const handleSearch = (event:any) =>{
+    const handleSearch = (event: any) => {
         event.preventDefault();
         dispatch(fetchBookByKeyword(filterText));
         myHistory.push(`/userhome/booksearchresult`);
@@ -22,8 +22,16 @@ const Filterbook = () => {
         <div className='filter-area'>
             <div className='filter-box'>
                 <form>
-                    <input type='text' className='filter-text' placeholder='Search' onChange={event => setFilterText(event.target.value)} />
-                    <button className='filter-btn' onClick={(event) => handleSearch(event)}>Search</button>
+                    <input
+                        type='text'
+                        className='filter-text'
+                        placeholder='Search'
+                        onChange={event => setFilterText(event.target.value)}
+                    />
+                    <button
+                        className='filter-btn'
+                        onClick={(event) => handleSearch(event)}
+                    >Search</button>
                 </form>
             </div>
         </div>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 
@@ -6,7 +7,9 @@ import RoutingPage from './routes/routes';
 
 
 
+
 function App() {
+    
     return (
         <RoutingPage></RoutingPage>
     );

@@ -1,5 +1,5 @@
 import './booklist.css';
-import React, { useState } from 'react';
+import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -48,21 +48,25 @@ function Booklist() {
                 </div>
                 <div className='title-box-right'>
 
-                    <select id='book-type' value = {bookData.bookCategory}onChange={(event) => handlecategory(event)}>
+                    <select
+                        id='book-type'
+                        value={bookData.bookCategory}
+                        onChange={(event) => handlecategory(event)}
+                    >
                         {bookData.bookCatgegoryList && bookData.bookCatgegoryList.map((item: any) => {
-                            console.log(item.id);
                             return (
                                 <option key={item.id} value={item.category}>{item.category}</option>
                             );
                         })}
-                       
+
                     </select>
 
                 </div>
-                {bookData.bookCatgegoryList && console.log(bookData.bookCatgegoryList)}
             </div>
             <div className='book-list'>
-                {bookData.books && bookData.books.map((item: BookListDisplayType) => {
+                {bookData.books && bookData.books.map((item: any) => {
+                    console.log(bookData);
+                    
                     return (
                         <BookCard
                             key={item.id}

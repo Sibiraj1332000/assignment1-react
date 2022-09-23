@@ -1,11 +1,36 @@
 {
-  "booksTaken": [],
+  "booksTaken": [
+    {
+      "bookId": 2,
+      "userId": 3,
+      "bookName": "Way 2 find your perfect - self help and relationship book",
+      "auther": "by Kabir Singh and Yash Choudhary",
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_2.webp",
+      "id": 2
+    },
+    {
+      "bookId": 6,
+      "userId": 4,
+      "bookName": "AWS Cookbook",
+      "auther": "by John Culkin and Mike Zazon ",
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_6.webp",
+      "id": 3
+    },
+    {
+      "bookId": 2,
+      "userId": null,
+      "bookName": "Way 2 find your perfect - self help and relationship book",
+      "auther": "by Kabir Singh and Yash Choudhary",
+      "bookImage": " http://127.0.0.1:8080/bookimages/image_2.webp",
+      "id": 4
+    }
+  ],
   "bookDetails": [
     {
       "id": 1,
       "bookName": "Mahabharata complete book in English",
       "auther": "by Vyasa and Kisari Mohan Ganguly",
-      "count": 1,
+      "count": 3,
       "bookImage": " http://127.0.0.1:8080/bookimages/image_1.webp",
       "category": "story"
     },
@@ -13,7 +38,7 @@
       "id": 2,
       "bookName": "Way 2 find your perfect - self help and relationship book",
       "auther": "by Kabir Singh and Yash Choudhary",
-      "count": 3,
+      "count": 6,
       "bookImage": " http://127.0.0.1:8080/bookimages/image_2.webp",
       "category": "story"
     },
@@ -45,7 +70,7 @@
       "id": 6,
       "bookName": "AWS Cookbook",
       "auther": "by John Culkin and Mike Zazon ",
-      "count": 1,
+      "count": 0,
       "bookImage": " http://127.0.0.1:8080/bookimages/image_6.webp",
       "category": "poem"
     },
@@ -61,7 +86,7 @@
       "id": 8,
       "bookName": "Wish I Could Tell You",
       "auther": "by Durjoy Datta",
-      "count": 1,
+      "count": 3,
       "bookImage": " http://127.0.0.1:8080/bookimages/image_8.webp",
       "category": "novel"
     }
@@ -107,6 +132,143 @@
       "userName": "sibiraj@gmail.com",
       "password": "222",
       "id": 9
+    },
+    {
+      "userName": "bb@gmail.com",
+      "password": "11",
+      "id": 10
+    },
+    {
+      "userName": "dd@gmail.com",
+      "password": "qq",
+      "id": 11
+    },
+    {
+      "userName": "aaa@gmail.com",
+      "password": "dd",
+      "id": 12
+    },
+    {
+      "userName": "ff@gmail.com",
+      "password": "dd",
+      "id": 13
+    },
+    {
+      "userName": "nb@gmail.com",
+      "password": "rr",
+      "id": 14
+    },
+    {
+      "userName": "dds@gmail.com",
+      "password": "dd",
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "id": 17
+    },
+    {
+      "id": 18
+    },
+    {
+      "id": 19
+    },
+    {
+      "id": 20
+    },
+    {
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "userName": "df@gmail.com",
+      "password": "ee",
+      "id": 23
+    },
+    {
+      "id": 24
+    },
+    {
+      "id": 25
+    },
+    {
+      "id": 26
+    },
+    {
+      "id": 27
+    },
+    {
+      "id": 28
+    },
+    {
+      "id": 29
+    },
+    {
+      "id": 30
+    },
+    {
+      "userName": "xx@gmail.com",
+      "password": "xx",
+      "id": 31
+    },
+    {
+      "userName": "dd@gmail.com",
+      "password": "ss",
+      "id": 32
+    },
+    {
+      "userName": "aa",
+      "password": "dd",
+      "id": 33
+    },
+    {
+      "userName": "sqsqs",
+      "password": "11",
+      "id": 34
+    },
+    {
+      "userName": "asxsxcaxs",
+      "password": "22",
+      "id": 35
+    },
+    {
+      "userName": "asxd",
+      "password": "22",
+      "id": 36
+    },
+    {
+      "userName": "qdw f k",
+      "password": "22",
+      "id": 37
+    },
+    {
+      "userName": "qdwed",
+      "password": "rr",
+      "id": 38
+    },
+    {
+      "userName": "qwefdwefeqweff",
+      "password": "22",
+      "id": 39
+    },
+    {
+      "userName": "dwedweqd",
+      "password": "dfdf",
+      "id": 40
+    },
+    {
+      "userName": "eswesad",
+      "password": "rr",
+      "id": 41
+    },
+    {
+      "userName": "wqerdwe",
+      "password": "eeeee",
+      "id": 42
     }
   ],
   "userDetails": [
@@ -199,6 +361,290 @@
       "post": "dddd",
       "pin": "1111111",
       "id": 9
+    },
+    {
+      "firstName": "aaa",
+      "lastName": "sss",
+      "email": "bb@gmail.com",
+      "phone": "1111111111",
+      "houseName": "bhfdsbcvcd",
+      "city": "dsfgerfc",
+      "district": "vergfvewe",
+      "post": "mnbfjber",
+      "pin": "222111",
+      "id": 10
+    },
+    {
+      "firstName": "aaa",
+      "lastName": "aaa",
+      "email": "dd@gmail.com",
+      "phone": "1111111111111111",
+      "houseName": "sssssss",
+      "city": "ssssssssssssssssssssssss",
+      "district": "sssssssssss",
+      "post": "sdaxasx",
+      "pin": "22222222",
+      "id": 11
+    },
+    {
+      "firstName": "qqqq",
+      "lastName": "qqqqqq",
+      "email": "aaa@gmail.com",
+      "phone": "222222222222222222",
+      "houseName": "ddddd",
+      "city": "ddddd",
+      "district": "ffff",
+      "post": "ffff",
+      "pin": "2222222",
+      "id": 12
+    },
+    {
+      "firstName": "ss",
+      "lastName": "ss",
+      "email": "ff@gmail.com",
+      "phone": "4444444444444444",
+      "houseName": "jefh",
+      "city": "svvvav",
+      "district": "jnbgf",
+      "post": "jbf",
+      "pin": "3333333333",
+      "id": 13
+    },
+    {
+      "firstName": "sss",
+      "lastName": "ss",
+      "email": "nb@gmail.com",
+      "phone": "444444444444444",
+      "houseName": "jbsfhcvbv",
+      "city": "hjehbfc",
+      "district": "hjbfchb",
+      "post": "hjbfqhbe",
+      "pin": "44444444",
+      "id": 14
+    },
+    {
+      "firstName": "sss",
+      "lastName": "ssss",
+      "email": "dds@gmail.com",
+      "phone": "44444444444444",
+      "houseName": "mfcsfdk",
+      "city": "jhbwf",
+      "district": "jbwkchsb",
+      "post": "jhbcsj",
+      "pin": "333333333",
+      "id": 15
+    },
+    {
+      "firstName": "sss",
+      "id": 16
+    },
+    {
+      "firstName": "aaa",
+      "id": 17
+    },
+    {
+      "firstName": "aa",
+      "id": 18
+    },
+    {
+      "firstName": "aaa",
+      "id": 19
+    },
+    {
+      "firstName": "aaa",
+      "id": 20
+    },
+    {
+      "firstName": "aaa",
+      "id": 21
+    },
+    {
+      "id": 22
+    },
+    {
+      "firstName": "ddddd",
+      "lastName": "ddd",
+      "email": "df@gmail.com",
+      "phone": "1111111111",
+      "houseName": "sbhvbc",
+      "city": "hjbchshjbfchs",
+      "district": "wbscdfi",
+      "post": "hjbso",
+      "pin": "4444444444",
+      "id": 23
+    },
+    {
+      "firstName": "qq",
+      "id": 24
+    },
+    {
+      "firstName": "dddd",
+      "id": 25
+    },
+    {
+      "firstName": "ddddd",
+      "id": 26
+    },
+    {
+      "firstName": "aaaa",
+      "id": 27
+    },
+    {
+      "firstName": "aaaa",
+      "id": 28
+    },
+    {
+      "firstName": "aaaaaa",
+      "id": 29
+    },
+    {
+      "firstName": "qsqw",
+      "lastName": "qdsdxc",
+      "id": 30
+    },
+    {
+      "firstName": "xxxx",
+      "lastName": "xxxx",
+      "email": "xx@gmail.com",
+      "phone": "1111111111111111",
+      "houseName": "xxx",
+      "city": "xx",
+      "district": "xx",
+      "post": "xx",
+      "pin": "11111111111111111",
+      "id": 31
+    },
+    {
+      "firstName": "ddd",
+      "lastName": "ddd",
+      "email": "dd@gmail.com",
+      "phone": "1111111111111",
+      "houseName": "wdxsadc",
+      "city": "adcasdc",
+      "district": "acsdc",
+      "post": "aSCASD",
+      "pin": "1111111111",
+      "id": 32
+    },
+    {
+      "firstName": "www",
+      "lastName": "www",
+      "email": "aa",
+      "phone": "11111",
+      "houseName": "11111111",
+      "city": "dxsdccsfc",
+      "district": "csdc",
+      "post": "acsdc",
+      "pin": "222",
+      "id": 33
+    },
+    {
+      "firstName": "qqqs",
+      "lastName": "sqsqs",
+      "email": "sqsqs",
+      "phone": "222222222222",
+      "houseName": "sacsdc",
+      "city": "acsac",
+      "district": "acs",
+      "post": "ascsad",
+      "pin": "33333333",
+      "id": 34
+    },
+    {
+      "firstName": "asxas",
+      "lastName": "axsxasxas",
+      "email": "asxsxcaxs",
+      "phone": "12323",
+      "houseName": "ascxcsa",
+      "city": "cscccadsc",
+      "district": "casd",
+      "post": "adcdsa",
+      "pin": "asxsc",
+      "id": 35
+    },
+    {
+      "firstName": "wdwascasdcx",
+      "lastName": "dxawsxcax",
+      "email": "asxd",
+      "phone": "dawsx",
+      "houseName": "saxws",
+      "city": "sqwxasqSAXZ",
+      "district": "SQWsaz",
+      "post": "sWQAS",
+      "pin": "SQAZz",
+      "id": 36
+    },
+    {
+      "firstName": "edwqefd",
+      "lastName": "dwq dk",
+      "email": "qdw f k",
+      "phone": "nq dwke",
+      "houseName": "jhkqhwjdf",
+      "city": "bdekqk e",
+      "district": "b dwghe",
+      "post": "hbqiedwvqwhb",
+      "pin": "hjbbiwqdge",
+      "id": 37
+    },
+    {
+      "firstName": "dqwed",
+      "lastName": "qdwed",
+      "email": "qdwed",
+      "phone": "23232323232",
+      "houseName": "afcsdf",
+      "city": "qaesafcer",
+      "district": "qfesfce",
+      "post": "qafewsdffe",
+      "pin": "fesf",
+      "id": 38
+    },
+    {
+      "firstName": "fcesdsc",
+      "lastName": "qwefdcwe",
+      "email": "qwefdwefeqweff",
+      "phone": "weqfef",
+      "houseName": "fqwfrew",
+      "city": "qwfweaw",
+      "district": "wfef",
+      "post": "wfasf",
+      "pin": "wefre",
+      "id": 39
+    },
+    {
+      "firstName": "wefcewf",
+      "lastName": "qewdxw",
+      "email": "dwedweqd",
+      "phone": "dqwedxew",
+      "houseName": "qwede",
+      "city": "qwed",
+      "district": "qwdws",
+      "post": "qwesadd",
+      "pin": "ewqsad",
+      "id": 40
+    },
+    {
+      "firstName": "sdfcesdf",
+      "lastName": "wedewrf",
+      "email": "eswesad",
+      "phone": "csdfcs",
+      "houseName": "acxsdfc",
+      "city": "aesfdcxsd",
+      "district": "dssdxs",
+      "post": "dsfcs",
+      "pin": "sdfas",
+      "id": 41
+    },
+    {
+      "firstName": "qwdqweqwedxw",
+      "lastName": "wded",
+      "email": "wqerdwe",
+      "phone": "qdxsadqweeed",
+      "houseName": "wqedwsd",
+      "city": "wedxwsad",
+      "district": "qwedwsad",
+      "post": "ewqdxqasdx",
+      "pin": "edqwasd",
+      "id": 42
     }
   ],
   "enquiryData": [
@@ -240,6 +686,26 @@
     {
       "enquiryMessage": "",
       "id": 8
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "qww",
+      "id": 9
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "hlo",
+      "id": 10
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "hlo",
+      "id": 11
+    },
+    {
+      "enquiryEmail": "kk@gmail.com",
+      "enquiryMessage": "bfchsfdvgkfdvc fdskv",
+      "id": 12
     }
   ],
   "newsAndEvent": [

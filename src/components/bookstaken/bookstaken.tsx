@@ -32,6 +32,8 @@ function BooksTaken() {
             <h2 className='book-title'>BOOKS TAKEN</h2>
             <div className='book-list'>
                 {bookData && bookData.map((item: BooksTakenItemType, index: number) => {
+                    console.log("jhjh",item);
+                    
                     return (
                         <BookCard
                             key={index}

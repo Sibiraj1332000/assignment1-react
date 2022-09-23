@@ -28,9 +28,10 @@
     background: rgba(19, 18, 18, 0.903);
 
     
-}:focus-visible{
-    background: rgba(19, 18, 18, 0.903);
 }
+/* :focus-visible{
+    background: rgba(19, 18, 18, 0.903);
+} */
 
 .login-title {
     margin-bottom: 10px;

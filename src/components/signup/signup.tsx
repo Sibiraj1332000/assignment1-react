@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useHistory } from 'react-router-dom';
-import { saveRegisterData } from '../../api/apiSignUp/apiCallsSignUp';
+import { saveRegisterDataNode } from '../../api/apiSignUp/apiCallsSignUp';
 
 import './signup.css';
 
@@ -31,7 +31,23 @@ function Signup() {
     const handlePin = (event: React.ChangeEvent<HTMLInputElement>) => setPin(event.target.value);
     const handlePassword = (event: React.ChangeEvent<HTMLInputElement>) => setPassword(event.target.value);
     const handleConfirmPassword = (event: React.ChangeEvent<HTMLInputElement>) => setConfirmPassword(event.target.value);
-    const userDetailDoc = {
+    // const userDetailDoc = {
+    //     firstName,
+    //     lastName,
+    //     email,
+    //     phone,
+    //     houseName,
+    //     city,
+    //     district,
+    //     post,
+    //     pin
+    // };
+    // const userLoginDoc = {
+    //     userName: email,
+    //     password
+    // };
+
+    const userDetailMainDoc={
         firstName,
         lastName,
         email,
@@ -40,16 +56,14 @@ function Signup() {
         city,
         district,
         post,
-        pin
-    };
-    const userLoginDoc = {
-        userName: email,
+        pin,
         password
-    };
+    }
 
     const handleUpdateData = async () => {
 
-        saveRegisterData(userDetailDoc, userLoginDoc);
+        // saveRegisterData(userDetailDoc, userLoginDoc);
+        saveRegisterDataNode(userDetailMainDoc);
         myHistory.push('/');
 
     };
@@ -112,7 +126,7 @@ function Signup() {
             }
         }
 
-
+        // let validCount = 10;
         if (validCount === 10) handleUpdateData();
 
     };
@@ -122,26 +136,82 @@ function Signup() {
             <div className='signup-box'>
                 <h1 className='signup-title'>SignUp</h1>
                 <form action=''>
-                    <input type='text' placeholder='First Name' className=' small-field-style' onChange={handleFirstName} />
-                    <input type='text' placeholder='Last Name' className='right-field small-field-style' onChange={handleLastName} />
-                    <input type='email' placeholder='Email' className='field-style' onChange={handleEmail} />
-                    <input type='text' placeholder='Phone' className='field-style' onChange={handlePhone} />
+                    <input
+                        type='text'
+                        placeholder='First Name'
+                        className=' small-field-style'
+                        onChange={handleFirstName}
+                    />
+                    <input
+                        type='text'
+                        placeholder='Last Name'
+                        className='right-field small-field-style'
+                        onChange={handleLastName}
+                    />
+                    <input
+                        type='email'
+                        placeholder='Email'
+                        className='field-style'
+                        onChange={handleEmail}
+                    />
+                    <input
+                        type='text'
+                        placeholder='Phone'
+                        className='field-style'
+                        onChange={handlePhone}
+                    />
 
-                    <input type='text' placeholder='House Name' className='field-style' onChange={handleHouseName} />
+                    <input
+                        type='text'
+                        placeholder='House Name'
+                        className='field-style'
+                        onChange={handleHouseName}
+                    />
 
-                    <input type='text' placeholder='City' className='small-field-style' onChange={handleCity} />
-                    <input type='text' placeholder='district' className='small-field-style right-field' onChange={handleDistrict} />
+                    <input
+                        type='text'
+                        placeholder='City'
+                        className='small-field-style'
+                        onChange={handleCity}
+                    />
+                    <input
+                        type='text'
+                        placeholder='district'
+                        className='small-field-style right-field'
+                        onChange={handleDistrict}
+                    />
 
-                    <input type='text' placeholder='Post' className='small-field-style' onChange={handlePost} />
-                    <input type='text' placeholder='pin' className='small-field-style right-field' onChange={handlePin} />
+                    <input
+                        type='text'
+                        placeholder='Post'
+                        className='small-field-style'
+                        onChange={handlePost}
+                    />
+                    <input
+                        type='text'
+                        placeholder='pin'
+                        className='small-field-style right-field'
+                        onChange={handlePin}
+                    />
 
-                    <input type='Password' placeholder='Password' className='small-field-style' onChange={handlePassword}></input>
-                    <input type='Password' placeholder='Confirm Password' className='small-field-style right-field' onChange={handleConfirmPassword}></input>
+                    <input
+                        type='Password'
+                        placeholder='Password'
+                        className='small-field-style'
+                        onChange={handlePassword}
+                    />
+                    <input
+                        type='Password'
+                        placeholder='Confirm Password'
+                        className='small-field-style right-field'
+                        onChange={handleConfirmPassword}
+                    />
 
                     <br />
-                    <button className='main-signup-btn' onClick={event => handleSignUp(event)}>SignUp</button>
-
-
+                    <button
+                        className='main-signup-btn'
+                        onClick={event => handleSignUp(event)}
+                    >SignUp</button>
                 </form>
             </div>
         </div>

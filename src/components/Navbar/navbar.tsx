@@ -29,6 +29,7 @@ const Navbar = () => {
 
         // localStorage.clear();
         window.sessionStorage.clear();
+        window.localStorage.clear();
         myHistory.push('/');
     };
 

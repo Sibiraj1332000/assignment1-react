@@ -211,6 +211,11 @@ export interface BookListActionReturnType {
     }[] | string | undefined |null |any
 }
 
+// export interface EventDataType {
+//     eventTitle:string,
+//     eventDetails:string,
+//     id:number
+// }
 export interface EventDataType {
     eventTitle:string,
     eventDetails:string,

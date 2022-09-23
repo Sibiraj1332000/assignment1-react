@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { takeBook } from '../../api/apiBookCard/apiCallsBookCard';
-import { fetchBooks } from '../../api/apiBookList/apiCallsBookList';
 import { removeTakenBooks } from '../../api/apiBooksTaken/apiCallsBookTaken';
 import { BookCardTypes, TakeBookType } from '../../Interface/Interface';
 import './bookcard.css';

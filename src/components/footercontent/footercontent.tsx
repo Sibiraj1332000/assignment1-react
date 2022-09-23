@@ -10,7 +10,7 @@ class Footercontents extends Component {
                     <ul className='footer-link'>
                         <li className='footer-link-title'>Discover</li>
                         <li>
-                            <Link to='/userhome/books'>Books</Link>
+                            <Link to='/userhome/'>Books</Link>
                         </li>
                         <li>
                             <Link to='/userhome/aboutus'>About Us</Link>
