@@ -1,11 +1,12 @@
 import { BooksTakenActionsReturnType, BooksTakenInitType, BooksTakenReturnType } from '../../Interface/Interface';
-import { FETCH_TAKEN_BOOKS_FAILURE, FETCH_TAKEN_BOOKS_REQUEST, FETCH_TAKEN_BOOKS_SUCCESS } from './booksTakenTypes';
+import { FETCH_TAKEN_BOOKS_COUNT, FETCH_TAKEN_BOOKS_FAILURE, FETCH_TAKEN_BOOKS_REQUEST, FETCH_TAKEN_BOOKS_SUCCESS } from './booksTakenTypes';
 
 
 const initialState = {
     loading: false,
     takenBooks: null,
-    error: ''
+    error: '',
+    count:0
 };
 
 const booksTakenReducer = (state: BooksTakenInitType = initialState, action: BooksTakenActionsReturnType): BooksTakenReturnType => {
@@ -28,6 +29,11 @@ const booksTakenReducer = (state: BooksTakenInitType = initialState, action: Boo
                 loading: false,
                 error: action.payload
             };
+        case FETCH_TAKEN_BOOKS_COUNT:
+            return{
+                ...state,
+                count:action.payload
+            }
         default: return state;
     }
 };

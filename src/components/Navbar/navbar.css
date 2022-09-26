@@ -64,3 +64,12 @@
     margin: 40px auto 50px;
 }
 
+.badge {
+    background-color: rgba(56, 118, 52, 0.644);
+    color: rgba(255, 255, 255, 0.858);
+    padding: 2px 8px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 40px;
+    margin-left: -4px;
+  }

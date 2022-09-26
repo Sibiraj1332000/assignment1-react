@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { Dispatch } from 'redux';
 import {
+    fetchTakenBooksCount,
     fetchTakenBooksFailure,
     fetchTakenBooksRequest,
     fetchTakenBooksSuccess
@@ -42,13 +43,26 @@ export const removeTakenBooks = (key: number, listKey: number | undefined): any 
         console.log("ENTERED removeTakenBooks", userid, key);
 
         dispatch(fetchTakenBooksRequest());
+        
         await axios.post('http://localhost:3001/books_taken/return_book', { userId: userid, bookId: key })
             .then(res => {
                 console.log("updatedTakenList ", res.data.result);
+                console.log("kkkkuuuuu");
+                
                 dispatch(fetchTakenBooksSuccess(res.data.result));
             })
-
-        
+            console.log("jjjjjjiiiii");
+            await axios.get('http://localhost:3001/books_taken/takenbooks_count',{
+                params:{
+                    userId:userid
+                }
+            }).then(res=>{
+                console.log("bbbook count ",res.data.bookCount);
+                dispatch(fetchTakenBooksCount(res.data.bookCount))
+                
+            })
+            
+       
         // //remove book from takenbooklist
         // await fetch(process.env.REACT_APP_JSON_PATH + '/booksTaken/' + key, {
         //     method: 'DELETE',

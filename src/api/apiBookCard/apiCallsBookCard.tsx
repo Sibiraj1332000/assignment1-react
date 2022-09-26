@@ -2,6 +2,7 @@ import { updateBookPickCount } from '../../redux/bookCard/bookCardActions';
 import { AppDispatch } from '../../redux/store';
 import { TakeBookType } from '../../Interface/Interface';
 import axios from 'axios';
+import { fetchTakenBooksCount } from '../../redux/booksTaken/booksTakenActions';
 
 // type TakeBookReturnType = function(dispatch: Dispatch)=> nul
 
@@ -16,6 +17,18 @@ export const takeBook = (bookInfo: TakeBookType): any => {
         const result = await axios.post('http://localhost:3001/book_list/take_book',takeBookDoc);
         console.log("kjkjkjkjkj",result.data.updatedCount[0].count);
         dispatch(updateBookPickCount(result.data.updatedCount[0].count));
+        const userId= sessionStorage.getItem('logedinUserId');
+        console.log("jgjgjgjgjjgjjffffff",userId);
+        
+            axios.get('http://localhost:3001/books_taken/takenbooks_count', {
+                params: {
+                    userId:userId
+                }
+            }).then(res => {
+                console.log("hghghghhghhgghghgghhhg ", res.data.bookCount);
+                dispatch(fetchTakenBooksCount(res.data.bookCount))
+
+            })
         
 
 

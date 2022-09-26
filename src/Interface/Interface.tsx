@@ -140,7 +140,8 @@ export interface BooksTakenInitType {
         id: number,
         userId: number
     }[] | [] | null | undefined,
-    error: string | null | undefined | ''
+    error: string | null | undefined | '',
+    count:any
 }
 
 export interface BooksTakenReturnType {
@@ -153,7 +154,8 @@ export interface BooksTakenReturnType {
         id: number,
         userId: number,
     }[] | [] | null | undefined | any,
-    error: string | null | undefined | '' | any
+    error: string | null | undefined | '' | any,
+    count:any
 }
 
 export interface BooksTakenActionsReturnType {
@@ -165,7 +167,7 @@ export interface BooksTakenActionsReturnType {
         bookName: string,
         id: number,
         userId: number
-    } | null | string|undefined|''
+    } | null | string|undefined|''|any
 }
 
 export interface BooksTakenSuccessType {
